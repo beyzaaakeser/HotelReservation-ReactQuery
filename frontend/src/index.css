@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  margin: 0;
-  padding: 20px;
-  box-sizing: border-box;
-  min-height: 100vh;
+@layer components {
+  .field {
+    @apply flex flex-col gap-2;
+  }
+
+  .input {
+    @apply border py-1 px-4 rounded-md shadow-sm;
+  }
 }
- */

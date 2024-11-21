@@ -10,3 +10,9 @@ export type Place = {
   availability: boolean;
   image_url: string;
 };
+
+export type Params = {
+  location?: string;
+  sort?: string;
+  title?: string;
+};
