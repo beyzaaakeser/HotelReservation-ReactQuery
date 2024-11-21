@@ -39,7 +39,7 @@ const Detail = () => {
 
             <Features array={data.amenities} />
 
-            <div className="flex justify-between gap-2 items-centermt-5">
+            <div className="flex justify-between gap-2 items-center mt-5">
               <p className="text-xl font-semibold">
                 ${data.price_per_night}
                 <span className="text-sm text-gray-600">/night</span>

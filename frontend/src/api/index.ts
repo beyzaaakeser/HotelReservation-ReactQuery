@@ -8,4 +8,7 @@ export const getPlaces = (params?: Params) =>
 
 export const createPlace = (body: PlaceData) => api.post('/api/places', body);
 
-export const getPlace = (id:string) => api.get(`/api/place/${id}`).then((res) => res.data.place)
+export const getPlace = (id: string) =>
+  api.get(`/api/place/${id}`).then((res) => res.data.place);
+
+export const deletePlace = (id: string) => api.delete(`/api/place/${id}`);
