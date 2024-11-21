@@ -15,8 +15,8 @@ const Status = ({ data, expand }: { data: boolean; expand?: boolean }) => {
         <CgUnavailable  className="text-xl text-red-700" />
       )}
       {expand && (
-        <p className="text-lg font-bold">
-          {data ? 'Now Open for Reservations' : 'Currently Fully Booked'}
+        <p className="font-bold">
+          {data ? 'Open for Reservations' : 'Currently Fully Booked'}
         </p>
       )}
     </div>

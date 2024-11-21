@@ -25,8 +25,8 @@ const List = () => {
           <Error info={error} refetch={refetch} />
         ) : (
           <div className="grid gap-5 mt-5">
-            {data?.map((place) => (
-              <Card key={place.id} place={place} />
+            {data?.map((place, index) => (
+              <Card key={index} place={place} />
             ))}
           </div>
         )}
