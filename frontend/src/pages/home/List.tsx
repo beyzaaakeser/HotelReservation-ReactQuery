@@ -10,10 +10,8 @@ const List = () => {
   const [params] = useSearchParams();
   const paramsObj = Object.fromEntries(params.entries());
 
-
-
   const { isLoading, data, error, refetch } = useQuery<Place[]>({
-    queryKey: ['places',paramsObj],
+    queryKey: ['places', paramsObj],
     queryFn: () => getPlaces(paramsObj),
   });
 
@@ -24,7 +22,7 @@ const List = () => {
         {isLoading ? (
           <Loader />
         ) : error ? (
-          <Error />
+          <Error info={error} refetch={refetch} />
         ) : (
           <div className="grid gap-5 mt-5">
             {data?.map((place) => (

@@ -1,10 +1,10 @@
-import React from 'react';
 type Props = { info: Error; refetch: () => void };
+
 const Error =  ({ info, refetch }: Props) => {
   return (
     <>
       <div className="mt-10 bg-red-500 text-white rounded-lg p-4 font-semibold text-center">
-        <p>Üzgünüz beklenemedik bir sorun oluştu</p>
+        <p>Oppss. An error occurred.</p>
         <p>{info.message}</p>
       </div>
 
@@ -13,7 +13,7 @@ const Error =  ({ info, refetch }: Props) => {
           className="border hover:bg-zinc-200 px-4 py-1 rounded-md"
           onClick={refetch}
         >
-          Tekrar Dene
+          Try Again
         </button>
       </div>
     </>
