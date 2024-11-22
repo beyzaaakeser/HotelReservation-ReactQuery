@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+<h1>My Hotel REservation App - Typescript & ReactQuery </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is a hotel reservation platform developed with modern technologies to facilitate hotel reservation processes. All accommodation areas are listed on the home page, and the name, description, amenities offered, daily price, and availability of each area are shown. Each accommodation area has a separate detail page. On this page, you can access more detailed information about the accommodation area and delete the relevant area. You can quickly find what you are looking for by filtering accommodation areas according to different criteria, such as city, name, price, or score. User experience is maximized with being responsive.
 
-Currently, two official plugins are available:
+While TypeScript increases code quality with its powerful type system and advanced tool support, we created a high-performance and flexible user interface with React (Vite). We facilitated navigation within the application with React Router Dom. We optimized data management and caching processes with Tanstack React Query. We provided communication with the backend with the Axios library. We facilitated form management with Formik and created user notifications with React-Toastify. We enriched the visuality of the application with React-Icons and created a fast and customizable design with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2> The following technologies were used in the frontend development phase of my site: </h2>
 
-## Expanding the ESLint configuration
+- TypeScript
+- React (Vite)
+- React-Router-Dom
+- Tanstack React Query  
+- Axios
+- Formik
+- React-Toastify
+- React-Icons
+- Tailwind Css
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+ <h4>GIF</h5>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![](/public/hotel1.gif)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<h4>IMAGES</h4>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+<h5>Main Page</h5>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![](/public/main.png)
+
+<h5>Create Accommodation Place Page</h5>
+
+![](/public/create.png)
+
+<h5>Accommodation Place Detail Page</h5>
+
+![](/public/detail.png)
+
+<h5>Filter Page</h5>
+
+![](/public/filter.png)
+
+
