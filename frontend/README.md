@@ -1,4 +1,4 @@
-<h1>My Hotel REservation App - Typescript & ReactQuery </h1>
+<h1>My Hotel Reservation App - Typescript & ReactQuery </h1>
 
 This application is a hotel reservation platform developed with modern technologies to facilitate hotel reservation processes. All accommodation areas are listed on the home page, and the name, description, amenities offered, daily price, and availability of each area are shown. Each accommodation area has a separate detail page. On this page, you can access more detailed information about the accommodation area and delete the relevant area. You can quickly find what you are looking for by filtering accommodation areas according to different criteria, such as city, name, price, or score. User experience is maximized with being responsive.
 
@@ -17,7 +17,7 @@ While TypeScript increases code quality with its powerful type system and advanc
 - Tailwind Css
 
 
- <h4>GIF</h5>
+<h4>GIF</h5>
 
 ![](/public/hotel1.gif)
 
