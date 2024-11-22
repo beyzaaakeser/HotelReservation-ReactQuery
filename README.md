@@ -19,24 +19,24 @@ While TypeScript increases code quality with its powerful type system and advanc
 
 <h4>GIF</h5>
 
-![](/public/hotel1.gif)
+![](/images/hotel1.gif)
 
 <h4>IMAGES</h4>
 
 <h5>Main Page</h5>
 
-![](/public/main.png)
+![](/images/main.png)
 
 <h5>Create Accommodation Place Page</h5>
 
-![](/public/create.png)
+![](/images/create.png)
 
 <h5>Accommodation Place Detail Page</h5>
 
-![](/public/detail.png)
+![](/images/detail.png)
 
 <h5>Filter Page</h5>
 
-![](/public/filter.png)
+![](/images/filter.png)
 
 
